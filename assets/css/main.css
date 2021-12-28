@@ -290,7 +290,7 @@ mark {
 
 /* Box */
 
-	/* .box {
+	.box {
 		border-radius: 4px;
 		border: solid 1px #ffffff;
 		margin-bottom: 2rem;
@@ -307,7 +307,7 @@ mark {
 			border: 0;
 			border-radius: 0;
 			padding: 0;
-		} */
+		}
 
 /* Icon */
 
@@ -355,7 +355,7 @@ mark {
 		position: relative;
 	}
 
-		/* .image:before {
+		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
 			background-color: rgba(19, 21, 25, 0.5);
@@ -368,7 +368,7 @@ mark {
 			position: absolute;
 			top: 0;
 			width: 100%;
-		} */
+		}
 
 		.image img {
 			border-radius: 100%;
@@ -761,7 +761,7 @@ mark {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/whiterc.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -947,7 +947,7 @@ mark {
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
-			border-radius: 4px;
+			border-radius: 66px;
 		}
 
 			#header nav ul li {
@@ -1150,7 +1150,7 @@ mark {
 			width: 40rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
-			border-radius: 4px;
+			border-radius: 66px;
 			opacity: 0;
 		}
 
@@ -1235,7 +1235,7 @@ mark {
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		width: 100%;
 		max-width: 100%;
-		margin-top: 2rem;
+		margin-top: 0;
 		text-align: center;
 	}
 

@@ -6,13 +6,13 @@
 
 /* BG */
 
-	/* body.is-preload #bg:before {
+	body.is-preload #bg:before {
 		background-color: transparent;
-	} */
+	}
 
 /* Header */
 
-	/* body.is-preload #header {
+	body.is-preload #header {
 		-moz-filter: none;
 		-webkit-filter: none;
 		-ms-filter: none;
@@ -27,11 +27,11 @@
 			max-height: none;
 			padding: 3rem 2rem;
 			opacity: 1;
-		} */
+		}
 
 /* Main */
 
-	/* #main article {
+	#main article {
 		opacity: 1;
 		margin: 4rem 0 0 0;
-	} */
+	} 
