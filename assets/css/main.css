@@ -947,7 +947,7 @@ mark {
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px #ffffff;
-			border-radius: 66px;
+			border-radius: 4px;
 		}
 
 			#header nav ul li {
@@ -1150,7 +1150,7 @@ mark {
 			width: 40rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
-			border-radius: 66px;
+			border-radius: 4px;
 			opacity: 0;
 		}
 
