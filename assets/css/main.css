@@ -162,7 +162,7 @@ mark {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6, h7, h8 {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
@@ -171,12 +171,12 @@ mark {
 		letter-spacing: 0.2rem;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h7 a, h8 a {
 			color: inherit;
 			text-decoration: none;
 		}
 
-		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major, h7.major, h8.major {
 			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
@@ -195,11 +195,12 @@ mark {
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.4rem;
 	}
 
 	h3 {
 		font-size: 1rem;
+		color:rgb(235, 165, 132)
 	}
 
 	h4 {
@@ -212,6 +213,17 @@ mark {
 
 	h6 {
 		font-size: 0.6rem;
+	}
+
+	/* special headings for para */
+	h7 {
+		font-size: 0.9rem;
+		font-weight: 400;
+	}
+
+	h8 {
+		font-size: 0.9rem;
+		color:rgb(235, 87, 42)
 	}
 
 	@media screen and (max-width: 736px) {
